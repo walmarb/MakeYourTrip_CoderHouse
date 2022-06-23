@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.header{
+    background-color: aliceblue;
+}
+
+nav{
+    background-color: #64a6f2;
+}
+
+.menuSuperior{
+    text-align: center;
+    padding: 3rem;
+}
+
+.menuSuperior li{
+    display: inline-block;
+    border-style:none;
+    border-radius: 5rem;
+    border-color: white;
+    margin-left: 3rem;
+    padding: 1rem;
+    background-color:  rgb(180, 180, 238);
+}
+
+.menuSuperior a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform:uppercase;
+    color: rgb(0, 0, 0);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.menuSuperior__icono{
+    width: 100px;
+    position: absolute;
+    padding: 1rem;
+    padding-top: 1.3rem;
+    padding-left: 3rem;
+}
+
+.contenedor{
+    background-image: url(./img/vacation-at-sea-and-resort-concept-stupefied-lifeguard-with-lifebuoy-looks-surprisingly-into-distance.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5rem;
+    height: 60rem;
+    background-position-y:inherit;
+}
+
+.section{
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    width: 40%;
+}
+
+.section h1{
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 2rem;
+}
+
+.section p{
+    padding: 3rem;
+    border-radius: 5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.estadistics{
+    background-color: rgb(180, 180, 238);
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+}
+
+.estadistics__flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.estadistics_titulo{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.estadistics_case{
+    list-style: none;
+    text-align: center;
+}
+
+.estadistics_case img{
+    border-radius: 5rem;
+}
+
+.form{
+    display: flex;
+}
+
+.footer{
+    background-color:#64a6f2;
+    padding: 2rem;
+}
+
+.footer__flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__menu{
+    list-style: none;
+    text-align: center;
+}
+.footer__titulo{
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.footer__menu a{
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1rem;
+}

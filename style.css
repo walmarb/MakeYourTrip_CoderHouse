@@ -479,6 +479,7 @@ body{
 
 .footer__flex{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -499,3 +500,18 @@ body{
     font-size: 1rem;
 }
 
+.footer__secciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top:1rem;
+}
+
+.footer__seccion{
+    padding:1rem;
+}
+
+.footer__image{
+    text-align: center;
+    padding: 1rem;
+}

@@ -81,49 +81,42 @@ body{
 
 .menuSuperior__icono{
     width: 100px;
-
 }
-
 
 .contenedor{
     background-image: url(./img/vacation-at-sea-and-resort-concept-stupefied-lifeguard-with-lifebuoy-looks-surprisingly-into-distance.jpg);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
-    justify-content: stretch;
-    height: 60rem;
-    background-position-y:inherit;
 }
 
 .section{
-    padding-top: 10rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     padding-left: 3rem;
     width: 40%;
 }
 
 .section h1{
-    text-align: center;
-    font-size: 5rem;
-    padding-bottom: 2rem;
+    text-align: left;
+    font-size: 2rem;
+    padding-bottom: 1rem;
 }
 
 .section p{
-    padding: 3rem;
-    border-radius: 5rem;
-    text-align: center;
-    font-size: 2rem;
+    text-align: left;
+    font-size: 1rem;
 }
 
 .estadistics{
     background-color: rgb(180, 180, 238);
     color: rgb(0, 0, 0);
-    padding: 2rem;
 }
 
 .estadistics__flex{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .estadistics_titulo{

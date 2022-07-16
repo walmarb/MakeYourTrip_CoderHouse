@@ -62,14 +62,24 @@ body{
         padding-left: 3rem;
     }
     
-    .menuSuperior li{
-        background-color:  rgb(180, 180, 238); 
+    .menuSuperior li{ 
         list-style-type: none;
         border-radius: 5rem;
         padding: 1rem;
         margin-right: 1rem;
         text-align: center;
     }
+
+    .menuSuperior li :hover{
+        background-color:  blueviolet; 
+        list-style-type: none;
+        border-radius: 5rem;
+        padding: 1rem;
+        margin-right: 1rem;
+        text-align: center;
+        transition-duration: 300ms;
+    }
+
     
     .menuSuperior a{
         font-size: 1rem;
@@ -138,7 +148,9 @@ body{
 
     .estadistica_imagen{
         height: 100px;
-    }    
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }     
 
     .form{
         display: flex;
@@ -228,6 +240,34 @@ body{
         text-align: center;
         padding: 1rem;
         height: 100px;
+    }
+
+    .animacion{
+        color: white;
+        font-size: 100px;
+        animation-name: efecto;
+        animation-iteration-count: infinite;
+        animation-duration: 4s;
+        animation-delay: 1s;
+    }
+
+    @keyframes efecto {
+        0%{
+            color: white;
+        }
+        25%{
+            color: beige;
+            transform: translateX(100px);
+        }
+        50%{
+            color: #64a6f2;
+        }
+        75%{
+            color: rgb(255, 255, 255);
+        }
+        100%{
+            color: white;
+        }
     }
 }
 /* Tabletas */

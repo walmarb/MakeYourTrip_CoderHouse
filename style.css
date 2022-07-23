@@ -8,6 +8,12 @@ body{
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'Roboto Flex', sans-serif;
 }
+
+.background{
+    background-color: lightblue;
+}
+
+
 /* Escritorio */
 @media only screen and (min-width: 769px){
     #grilla{
@@ -84,14 +90,30 @@ body{
     .menuSuperior__icono{
         width: 60px;
     }
+
+    .wrapper{
+        display: flex;
+        height: 100%;
+        width: 60%;
+        margin: 0% auto;
+    }
     
+    .scroll-text{
+        color: white;
+        animation: scroll 60s linear forwards;
+    }
+
+    @keyframes scroll {
+        from { top: 0;}
+        to { top : -7500px}
+    }
+
     .contenedor{
-        background-image: url(./img/vacation-at-sea-and-resort-concept-stupefied-lifeguard-with-lifebuoy-looks-surprisingly-into-distance.jpg);
+        background-image: url(./img/beach-1867590.jpg);
         background-position: center;
         background-size:cover;
         background-position-y:top;
         background-repeat: no-repeat;
-        height: 55rem;
     }
     
     .section{
@@ -106,13 +128,12 @@ body{
     .section h1{
         text-align: left;
         font-size:4rem;
-        padding-bottom: 10rem;
+        padding-bottom: 5rem;
     }
     
     .section p{
         text-align: left;
-        justify-content: center;
-        font-size: 2rem;
+        font-size: 1vw;
         margin-bottom: 2rem;
     }
     
@@ -143,6 +164,13 @@ body{
     .footer__image{
         text-align: center;
         height: 100px;
+    }
+    .imagen__viajes{
+        opacity: 50%;
+    }
+
+    .imagen__viajes:hover{
+        opacity: 100%;
     }
 
     .animacion{

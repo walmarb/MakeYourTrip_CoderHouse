@@ -10,103 +10,31 @@ body {
 .background {
   background-color: lightblue; }
 
-#grilla {
-  display: grid;
-  grid-template-areas: "header_index header_index header_index" "menu_presentacion menu_presentacion menu_presentacion" "estadisticas_index estadisticas_index estadisticas_index" "footer_index footer_index footer_index";
-  align-items: stretch;
-  justify-items: stretch; }
-
-#header_index {
-  display: flex;
-  grid-area: header_index;
-  flex-direction: row; }
-
-#imagen_header {
-  grid-area: imagen_icono;
-  text-align: left;
-  padding: 10px; }
-
-#nav_header {
-  grid-area: navegacion;
-  padding: 1rem; }
-
 #menu_presentacion_index {
   grid-area: menu_presentacion; }
-
-#estadisticas_index {
-  grid-area: estadisticas_index; }
-
-#footer_index {
-  grid-area: footer_index; }
-
-.header {
-  background-color: #64a6f2;
-  grid-area: header; }
-
-.menuSuperior {
-  display: flex;
-  flex-direction: row;
-  padding-left: 3rem; }
-
-.menuSuperior li {
-  list-style-type: none;
-  border-radius: 5rem;
-  padding: 1rem;
-  margin-right: 1rem;
-  text-align: center; }
 
 .nav__bar__hover li :hover {
   background-color: lightblue;
   border-radius: 100px; }
 
-.menuSuperior a {
-  font-size: 1rem;
-  text-decoration: none;
-  text-transform: uppercase; }
-
-.menuSuperior__icono {
-  width: 60px; }
-
-.wrapper {
-  display: flex;
-  height: 100%;
-  width: 60%;
-  margin: 0% auto; }
-
-.scroll-text {
-  color: white;
-  animation: scroll 60s linear forwards; }
-
-@keyframes scroll {
-  from {
-    top: 0; }
-  to {
-    top: -7500px; } }
-
-.contenedor {
+#presentacion {
   background-image: url(../img/beach-1867590.jpg);
-  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: top;
-  background-repeat: no-repeat; }
+  background-position: center center;
+  padding: 5rem; }
+  #presentacion__titulo {
+    font-size: 3rem;
+    padding-top: 3rem; }
+  #presentacion__descripcion {
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    width: 30%;
+    padding-left: 2rem; }
 
-.section {
-  display: flex;
-  flex-direction: column;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
-  padding-left: 5rem;
-  width: 30rem; }
-
-.section h1 {
-  text-align: left;
-  font-size: 4rem;
-  padding-bottom: 5rem; }
-
-.section p {
-  text-align: left;
-  font-size: 1vw;
-  margin-bottom: 2rem; }
+.texto__centrado {
+  text-align: center; }
 
 .estadistica_imagen {
   height: 100px;
@@ -114,29 +42,14 @@ body {
   animation-iteration-count: infinite;
   border-radius: 100px; }
 
-.form {
-  display: flex; }
-
-.footer__menu {
-  list-style: none; }
-
 .footer__titulo {
   color: black;
   font-size: strong; }
 
-.footer__menu a {
-  color: black;
-  text-decoration: none; }
-
-.footer__image {
-  text-align: center;
-  height: 100px; }
-
 .imagen__viajes {
   opacity: 50%; }
-
-.imagen__viajes:hover {
-  opacity: 100%; }
+  .imagen__viajes:hover {
+    opacity: 100%; }
 
 .animacion {
   color: white;
@@ -159,229 +72,46 @@ body {
   100% {
     color: white; } }
 
-/* Tabletas */
+/*Tabletas*/
 @media (min-width: 577px) and (max-width: 991px) {
-  #grilla {
-    display: grid;
-    grid-template-areas: "header_index header_index header_index" "menu_presentacion menu_presentacion menu_presentacion" "estadisticas_index estadisticas_index estadisticas_index" "footer_index footer_index footer_index";
-    align-items: stretch;
-    justify-items: stretch; }
-  #header_index {
-    display: flex;
-    grid-area: header_index;
-    flex-direction: row; }
-  #imagen_header {
-    grid-area: imagen_icono;
-    text-align: left;
-    padding: 10px; }
-  #nav_header {
-    grid-area: navegacion;
-    padding: 1rem; }
-  #menu_presentacion_index {
-    grid-area: menu_presentacion; }
-  #estadisticas_index {
-    grid-area: estadisticas_index; }
-  #footer_index {
-    grid-area: footer_index; }
-  .header {
-    background-color: #64a6f2;
-    grid-area: header; }
-  .menuSuperior {
-    display: flex;
-    flex-direction: row;
-    padding-left: 3rem; }
-  .menuSuperior li {
-    background-color: #b4b4ee;
-    list-style-type: none;
-    border-radius: 5rem;
-    padding: 1rem;
-    margin-right: 1rem;
-    text-align: center; }
-  .menuSuperior a {
-    font-size: 1rem;
-    text-decoration: none;
-    text-transform: uppercase; }
-  .menuSuperior__icono {
-    width: 60px; }
-  .contenedor {
-    background-image: url(../img/vacation-at-sea-and-resort-concept-stupefied-lifeguard-with-lifebuoy-looks-surprisingly-into-distance.jpg);
-    background-position: center;
-    background-size: cover;
-    background-position-y: top;
-    background-repeat: no-repeat;
-    height: 55rem; }
-  .section {
-    display: flex;
-    flex-direction: column;
-    padding-top: 4rem;
-    padding-bottom: 2rem;
-    padding-left: 5rem;
-    width: 30rem; }
-  .section h1 {
-    text-align: left;
-    font-size: 4rem;
-    padding-bottom: 10rem; }
-  .section p {
-    text-align: left;
-    justify-content: center;
+  #presentacion__titulo {
     font-size: 2rem;
-    margin-bottom: 2rem; }
-  .estadisticas__flex {
-    display: flex;
-    flex-direction: row;
-    background-color: #b4b4ee;
-    justify-content: space-around;
+    padding-top: 2rem;
+    padding-left: 2rem; }
+  #presentacion__descripcion {
+    color: white;
     font-size: 1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
     padding-top: 1rem;
-    padding-bottom: 1rem; }
-  .caso_estadistica {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: auto;
-    width: 1fr; }
-  .caso_estadistica img {
-    border-radius: 20rem; }
-  .estadistica_imagen {
-    height: 100px; }
-  .form {
-    display: flex; }
-  .footer {
-    background-color: #64a6f2;
-    padding: 2rem; }
-  .footer__flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; }
-  .footer__menu {
-    list-style: none;
-    text-align: center; }
-  .footer__titulo {
-    color: black;
-    font-size: 1.5rem;
-    text-align: center; }
-  .footer__menu a {
-    color: black;
-    text-decoration: none;
-    padding: 1rem;
+    width: 50%;
+    padding-left: 2rem; }
+  #estadisticas__texto {
     font-size: 1rem; }
-  .footer__secciones {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-top: 1rem; }
-  .footer__seccion {
-    padding: 1rem; }
-  .footer__image {
-    text-align: center;
-    padding: 1rem; } }
+  #footer__imagen {
+    padding-bottom: 3rem; }
+    #footer__imagen img {
+      height: 70px;
+      width: 70px; }
+  #footer__seccion {
+    font-size: 1rem; } }
 
 /*Celulares*/
 @media (min-width: 320px) and (max-width: 576px) {
-  #grilla {
-    display: grid;
-    grid-template-areas: "header_index header_index header_index" "menu_presentacion menu_presentacion menu_presentacion" "estadisticas_index estadisticas_index estadisticas_index" "footer_index footer_index footer_index";
-    align-items: stretch;
-    justify-items: stretch; }
-  #header_index {
-    display: grid;
-    grid-area: header_index;
-    grid-template-areas: "imagen_icono" "navegacion";
-    grid-template-rows: auto auto;
-    grid-row-gap: 10px; }
-  #imagen_header {
-    grid-area: imagen_icono;
-    text-align: center;
-    padding: 10px; }
-  #nav_header {
-    grid-area: navegacion; }
-  #menu_presentacion_index {
-    grid-area: menu_presentacion; }
-  #estadisticas_index {
-    grid-area: estadisticas_index; }
-  #footer_index {
-    grid-area: footer_index; }
-  .header {
-    background-color: #64a6f2;
-    grid-area: header; }
-  .menuSuperior {
-    display: flex;
-    flex-direction: column; }
-  .menuSuperior li {
-    background-color: #b4b4ee;
-    list-style-type: none;
-    text-align: center;
-    padding: 10px;
-    border-style: solid;
-    margin: 1px; }
-  .menuSuperior a {
-    font-size: 1rem;
-    text-decoration: none;
-    text-transform: uppercase; }
-  .menuSuperior__icono {
-    width: 100px; }
-  .contenedor {
-    background-image: url(../img/vacation-at-sea-and-resort-concept-stupefied-lifeguard-with-lifebuoy-looks-surprisingly-into-distance.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-  .section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 3rem;
-    width: 40%; }
-  .section h1 {
-    text-align: left;
-    font-size: 2rem;
-    padding-bottom: 1rem; }
-  .section p {
-    text-align: left;
-    font-size: 1rem; }
-  .estadisticas__flex {
-    display: flex;
-    flex-direction: column;
-    background-color: #b4b4ee;
-    justify-content: space-around;
-    padding: 1rem; }
-  .caso_estadistica {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 150px; }
-  .caso_estadistica img {
-    border-radius: 5rem; }
-  .estadistica_imagen {
-    height: 100px; }
-  .form {
-    display: flex; }
-  .footer {
-    background-color: #64a6f2;
-    padding: 2rem; }
-  .footer__flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; }
-  .footer__menu {
-    list-style: none;
-    text-align: center; }
-  .footer__titulo {
-    color: black;
+  #presentacion__titulo {
     font-size: 1.5rem;
-    text-align: center; }
-  .footer__menu a {
-    color: black;
-    text-decoration: none;
-    padding: 1rem;
-    font-size: 1rem; }
-  .footer__secciones {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-top: 1rem; }
-  .footer__seccion {
-    padding: 1rem; }
-  .footer__image {
-    text-align: center;
-    padding: 1rem; } }
+    padding-top: 0.5rem;
+    padding-left: 2rem; }
+  #presentacion__descripcion {
+    color: white;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    width: 90%;
+    padding-left: 2rem; }
+  #estadisticas__texto {
+    font-size: 0.8rem; }
+  #footer__imagen {
+    padding-bottom: 1rem; }
+    #footer__imagen img {
+      height: 50px;
+      width: 50px; }
+  #footer__seccion {
+    font-size: 0.8rem; } }

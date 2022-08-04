@@ -3,19 +3,26 @@
   padding: 0; }
 
 body {
-  /*font-family: 'Open Sans', sans-serif;*/
-  /*font-family: 'Roboto', sans-serif;*/
   font-family: 'Roboto Flex', sans-serif; }
 
-.background {
-  background-color: lightblue; }
-
-#menu_presentacion_index {
-  grid-area: menu_presentacion; }
+.main__title {
+  font-size: 32px; }
 
 .nav__bar__hover li :hover {
   background-color: lightblue;
   border-radius: 100px; }
+
+.footer__titulo {
+  color: black;
+  font-size: strong; }
+
+.background {
+  background-color: lightblue; }
+
+.imagen__viajes {
+  opacity: 50%; }
+  .imagen__viajes:hover {
+    opacity: 100%; }
 
 #presentacion {
   background-image: url(../img/beach-1867590.jpg);
@@ -33,7 +40,7 @@ body {
     width: 30%;
     padding-left: 2rem; }
 
-.texto__centrado {
+#estadisticas__texto {
   text-align: center; }
 
 .estadistica_imagen {
@@ -41,15 +48,6 @@ body {
   animation-duration: 3s;
   animation-iteration-count: infinite;
   border-radius: 100px; }
-
-.footer__titulo {
-  color: black;
-  font-size: strong; }
-
-.imagen__viajes {
-  opacity: 50%; }
-  .imagen__viajes:hover {
-    opacity: 100%; }
 
 .animacion {
   color: white;
@@ -71,6 +69,35 @@ body {
     color: white; }
   100% {
     color: white; } }
+
+.container__quienesSomos {
+  text-align: center; }
+  .container__quienesSomos div {
+    padding: 30px; }
+    .container__quienesSomos div p {
+      padding: 10px; }
+
+.container__fundadores {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .container__fundadores div img {
+    height: 170px;
+    width: 250px;
+    border-radius: 5rem;
+    border: solid black 1px; }
+  .container__fundadores div p {
+    text-align: center; }
+
+.background--nuestraMision {
+  background-color: pink; }
+
+.background--nuestraHistoria {
+  background-color: #afcfbe; }
+
+.background--nuestroEquipo {
+  background-color: #b3b3d6; }
 
 /*Tabletas*/
 @media (min-width: 577px) and (max-width: 991px) {

@@ -1,0 +1,62 @@
+#presentacion {
+    background-image: url(../img/beach-1867590.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 5rem;
+    &__titulo {
+        font-size: 3rem;
+        padding-top: 3rem;
+    }
+
+    &__descripcion {
+        color: white;
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        width: 30%;
+        padding-left: 2rem;
+    }
+}
+
+#estadisticas__texto{
+    @include texto__centrado;
+}
+
+.estadistica_imagen {
+    height: 100px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 100px;
+}
+
+.animacion {
+    color: white;
+    font-size: 100px;
+    animation-name: efecto;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+@keyframes efecto {
+    0% {
+        color: white;
+    }
+
+    25% {
+        color: beige;
+        transform: translateX(100px);
+    }
+
+    50% {
+        color: #64a6f2;
+    }
+
+    75% {
+        color: rgb(255, 255, 255);
+    }
+
+    100% {
+        color: white;
+    }
+}

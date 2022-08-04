@@ -1,0 +1,76 @@
+/*Tabletas*/
+@media (min-width: 577px) and (max-width: 991px) {
+    #presentacion {
+        &__titulo {
+            font-size: 2rem;
+            padding-top: 2rem;
+            padding-left: 2rem;
+        }
+
+        &__descripcion {
+            color: white;
+            font-size: 1rem;
+            padding-top: 1rem;
+            width: 50%;
+            padding-left: 2rem;
+        }
+    }
+
+    #estadisticas {
+        &__texto {
+            font-size: 1rem;
+        }
+    }
+
+    #footer{
+        &__imagen{
+            padding-bottom: 3rem;
+            img{
+                height: 70px;
+                width: 70px;
+            }
+        }
+        &__seccion{
+            font-size: 1rem;
+        }
+    }
+
+}
+
+/*Celulares*/
+@media (min-width: 320px) and (max-width: 576px) {
+    #presentacion {
+        &__titulo {
+            font-size: 1.5rem;
+            padding-top: 0.5rem;
+            padding-left: 2rem;
+        }
+
+        &__descripcion {
+            color: white;
+            font-size: 0.8rem;
+            padding-top: 1rem;
+            width: 90%;
+            padding-left: 2rem;
+        }
+    }
+
+    #estadisticas {
+        &__texto {
+            font-size: 0.8rem;
+        }
+    }
+
+    #footer{
+        &__imagen{
+            padding-bottom: 1rem;
+            img{
+                height: 50px;
+                width: 50px;
+            }
+        }
+        &__seccion{
+            font-size: 0.8rem;
+        }
+    }
+}

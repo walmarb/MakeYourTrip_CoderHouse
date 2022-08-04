@@ -1,0 +1,32 @@
+.container__quienesSomos{
+    @include texto__centrado;
+    div{
+        padding: 30px;
+        p{
+            padding: 10px;
+        }
+    } 
+}
+
+.container__fundadores {
+    @include flex-row-center;
+    div {
+        div{
+
+        }
+        img {
+            @include sizes(250px, 170px);
+            border-radius: 5rem;
+            border: solid black 1px;
+        }
+        p{
+            @include texto__centrado;
+        }
+    }
+}
+
+@each $background, $color in $backgrounds {
+    .background--#{$background}{
+        background-color: $color;
+    }
+}

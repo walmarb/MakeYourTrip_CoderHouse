@@ -1,0 +1,11 @@
+.background {
+    background-color: lightblue;
+}
+
+.imagen__viajes {
+    opacity: 50%;
+
+    &:hover {
+        opacity: 100%;
+    }
+}

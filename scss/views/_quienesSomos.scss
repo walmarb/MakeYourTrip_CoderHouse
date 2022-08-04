@@ -11,9 +11,6 @@
 .container__fundadores {
     @include flex-row-center;
     div {
-        div{
-
-        }
         img {
             @include sizes(250px, 170px);
             border-radius: 5rem;

@@ -6,7 +6,9 @@ body {
   font-family: 'Roboto Flex', sans-serif; }
 
 .main__title {
-  font-size: 32px; }
+  font-size: 16px; }
+  .main__title__principal {
+    font-size: 32px; }
 
 .nav__bar__hover li :hover {
   background-color: lightblue;

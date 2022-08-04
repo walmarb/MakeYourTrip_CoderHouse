@@ -19,7 +19,10 @@ body {
 }
 
 .main__title{
-    font-size: $font-title;
+    font-size: $font-subttitle;
+    &__principal{
+        font-size: $font-title;
+    }
 }
 
 @mixin sizes($width, $heigth){

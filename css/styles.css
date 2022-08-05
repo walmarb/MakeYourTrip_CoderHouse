@@ -200,4 +200,14 @@ body {
       height: 50px;
       width: 50px; }
   #footer__seccion {
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  .membresia__articulo {
+    padding: 30px; }
+    .membresia__articulo h2 {
+      font-size: 20px;
+      text-decoration: underline; }
+  .membresia__banner {
+    padding: 30px; }
+    .membresia__banner span {
+      font-size: 20px;
+      text-decoration: underline; } }

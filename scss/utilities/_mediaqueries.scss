@@ -22,15 +22,17 @@
         }
     }
 
-    #footer{
-        &__imagen{
+    #footer {
+        &__imagen {
             padding-bottom: 3rem;
-            img{
+
+            img {
                 height: 70px;
                 width: 70px;
             }
         }
-        &__seccion{
+
+        &__seccion {
             font-size: 1rem;
         }
     }
@@ -61,16 +63,36 @@
         }
     }
 
-    #footer{
-        &__imagen{
+    #footer {
+        &__imagen {
             padding-bottom: 1rem;
-            img{
+
+            img {
                 height: 50px;
                 width: 50px;
             }
         }
-        &__seccion{
+
+        &__seccion {
             font-size: 0.8rem;
         }
     }
+
+    .membresia{
+        &__articulo{
+            padding: 30px;
+            h2{
+                font-size: 20px;
+                text-decoration: underline;
+            }
+        }
+        &__banner{
+            padding: 30px;
+            span{
+                font-size: 20px;
+                text-decoration: underline;
+            }
+        }
+    }
+
 }

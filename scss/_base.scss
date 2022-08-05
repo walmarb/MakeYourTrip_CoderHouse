@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -7,31 +7,22 @@ body {
     font-family: 'Roboto Flex', sans-serif;
 }
 
-@mixin texto__centrado {
-    text-align: center;
-}
-
-@mixin flex-row-center{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.main__title{
+.main__title {
     font-size: $font-subttitle;
-    &__principal{
+
+    &__principal {
         font-size: $font-title;
     }
 }
 
-@mixin sizes($width, $heigth){
-    height: $heigth;
-    width: $width;
+.btn {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 2em;
 }
 
-$backgrounds:(
-    nuestraMision: pink,
-    nuestraHistoria: rgb(175, 207, 190),
-    nuestroEquipo: rgb(179, 179, 214)
-);
+.btn-blue {
+    @include boton-bg($color-primero);
+}

@@ -1,0 +1,35 @@
+@mixin texto__centrado {
+    text-align: center;
+}
+
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@mixin sizes($width, $heigth) {
+    height: $heigth;
+    width: $width;
+}
+
+@mixin boton-bg($bg) {
+    background: $bg;
+
+    &:hover {
+        background: darken($bg, 8%);
+        transition: all 0.3s ease;
+    }
+
+    &:active {
+        background: darken($bg, 25%);
+    }
+}
+
+/* MAP BACKGROUND */
+$backgrounds: (
+    nuestraMision: pink,
+    nuestraHistoria: rgb(175, 207, 190),
+    nuestroEquipo: rgb(179, 179, 214)
+);

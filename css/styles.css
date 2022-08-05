@@ -1,3 +1,5 @@
+/* Paleta de colores */
+/* MAP BACKGROUND */
 * {
   margin: 0;
   padding: 0; }
@@ -10,6 +12,21 @@ body {
   .main__title__principal {
     font-size: 32px; }
 
+.btn {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 2em; }
+
+.btn-blue {
+  background: #ffa43a; }
+  .btn-blue:hover {
+    background: #ff9111;
+    transition: all 0.3s ease; }
+  .btn-blue:active {
+    background: #ba6400; }
+
 .nav__bar__hover li :hover {
   background-color: lightblue;
   border-radius: 100px; }
@@ -18,8 +35,48 @@ body {
   color: black;
   font-size: strong; }
 
+.membresia {
+  padding: 100px;
+  background-color: #525558; }
+  .membresia__contenedor {
+    text-align: center; }
+  .membresia__principal h1 {
+    color: white;
+    font-weight: bolder; }
+  .membresia__articulo {
+    padding: 70px; }
+    .membresia__articulo h2 {
+      font-size: 30px;
+      text-decoration: underline; }
+  .membresia__banner {
+    padding: 50px; }
+    .membresia__banner span {
+      background-color: orange;
+      padding: 10px;
+      font-size: 2rem; }
+  .membresia__abonos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .membresia__tarjeta {
+    background-color: white;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 0;
+    transition: box-shadow 30ms;
+    border: 1px solid #eee; }
+    .membresia__tarjeta ul {
+      list-style: none; }
+      .membresia__tarjeta ul li {
+        margin-top: 10px; }
+  .membresia__tarjeta:hover {
+    box-shadow: 0 0 3px #515151; }
+
 .background {
-  background-color: lightblue; }
+  background-color: #525558; }
 
 .imagen__viajes {
   opacity: 50%; }
@@ -31,7 +88,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 5rem; }
+  padding: 10rem; }
   #presentacion__titulo {
     font-size: 3rem;
     padding-top: 3rem; }

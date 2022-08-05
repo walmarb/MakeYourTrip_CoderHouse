@@ -3,7 +3,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 5rem;
+    padding: 10rem;
+
     &__titulo {
         font-size: 3rem;
         padding-top: 3rem;
@@ -18,7 +19,7 @@
     }
 }
 
-#estadisticas__texto{
+#estadisticas__texto {
     @include texto__centrado;
 }
 

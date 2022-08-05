@@ -1,0 +1,61 @@
+.membresia {
+    padding: 100px;
+    background-color: $color-quinto;
+    &__contenedor {
+        @include texto__centrado;
+    }
+
+    &__principal{
+        h1{
+            
+            color: white;
+            font-weight:bolder;
+        }
+    }
+
+    &__articulo{
+        padding: 70px;
+        h2{
+            font-size: 30px;
+            text-decoration: underline;
+        }
+    }
+
+    &__banner{
+        padding: 50px;
+        span{
+            background-color: orange;
+            padding: 10px;
+            font-size: 2rem;
+        }
+    }
+
+    &__abonos {
+        @include flex-row-center;
+    }
+
+    &__tarjeta {
+        background-color: white;
+        box-shadow: 5px 5px 5px grey;
+        border-radius: 10px;
+        padding: 50px;
+        margin: 50px;
+        box-shadow: 0;
+        transition: box-shadow 30ms;
+        border: 1px solid #eee;
+
+        ul {
+            list-style: none;
+
+            li {
+                margin-top: 10px;
+            }
+
+            ;
+        }
+    }
+
+    &__tarjeta:hover {
+        box-shadow: 0 0 3px #515151;
+    }
+}

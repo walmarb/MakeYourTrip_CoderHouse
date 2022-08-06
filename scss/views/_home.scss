@@ -3,11 +3,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 10rem;
+    padding: 5rem;
 
     &__titulo {
         font-size: 3rem;
-        padding-top: 3rem;
+        padding-top: 1rem;
     }
 
     &__descripcion {
@@ -15,7 +15,6 @@
         font-size: 1.5rem;
         padding-top: 1rem;
         width: 30%;
-        padding-left: 2rem;
     }
 }
 

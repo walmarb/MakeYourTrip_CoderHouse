@@ -1,6 +1,7 @@
 /*Tabletas*/
 @media (min-width: 577px) and (max-width: 991px) {
     #presentacion {
+        padding: 1rem;
         &__titulo {
             font-size: 2rem;
             padding-top: 2rem;
@@ -42,10 +43,11 @@
 /*Celulares*/
 @media (min-width: 320px) and (max-width: 576px) {
     #presentacion {
+        padding: 2rem;
         &__titulo {
             font-size: 1.5rem;
-            padding-top: 0.5rem;
-            padding-left: 2rem;
+            padding-top: 1px;
+            justify-content: center;
         }
 
         &__descripcion {
@@ -58,7 +60,7 @@
 
     #estadisticas {
         &__texto {
-            font-size: 0.8rem;
+            font-size: 10px;
         }
     }
 
@@ -73,7 +75,7 @@
         }
 
         &__seccion {
-            font-size: 0.8rem;
+            font-size: 10px;
         }
     }
 

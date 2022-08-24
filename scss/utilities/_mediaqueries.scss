@@ -26,13 +26,13 @@
     #footer {
         &__imagen {
             padding-bottom: 3rem;
-
-            img {
-                height: 70px;
-                width: 70px;
+    
+            svg {
+                width: 100px;
+                height: 100px;
             }
         }
-
+    
         &__seccion {
             font-size: 1rem;
         }
@@ -84,7 +84,7 @@
         &__imagen {
             padding-bottom: 1rem;
 
-            img {
+            svg {
                 height: 50px;
                 width: 50px;
             }

@@ -8398,7 +8398,7 @@ body {
     background: #ba6400; }
 
 .footer__titulo {
-  color: black;
+  color: white;
   font-size: strong; }
 
 .membresia {
@@ -8560,6 +8560,15 @@ body {
   position: relative;
   background-repeat: no-repeat; }
 
+#footer__imagen {
+  padding-bottom: 3rem; }
+  #footer__imagen svg {
+    width: 200px;
+    height: 200px; }
+
+#footer__seccion {
+  font-size: 1rem; }
+
 .container__quienesSomos {
   text-align: center; }
   .container__quienesSomos div {
@@ -8613,9 +8622,9 @@ body {
     font-size: 1rem; }
   #footer__imagen {
     padding-bottom: 3rem; }
-    #footer__imagen img {
-      height: 70px;
-      width: 70px; }
+    #footer__imagen svg {
+      width: 100px;
+      height: 100px; }
   #footer__seccion {
     font-size: 1rem; }
   .seccion__comentarios__main {
@@ -8648,7 +8657,7 @@ body {
     font-size: 10px; }
   #footer__imagen {
     padding-bottom: 1rem; }
-    #footer__imagen img {
+    #footer__imagen svg {
       height: 50px;
       width: 50px; }
   #footer__seccion {

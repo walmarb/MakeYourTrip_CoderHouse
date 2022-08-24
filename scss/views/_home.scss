@@ -125,3 +125,18 @@
     position: relative;
     background-repeat: no-repeat;
 }
+
+#footer {
+    &__imagen {
+        padding-bottom: 3rem;
+
+        svg {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    &__seccion {
+        font-size: 1rem;
+    }
+}

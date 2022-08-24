@@ -38,6 +38,22 @@
         }
     }
 
+    .seccion__comentarios__main{
+        background-image: url(../../img/main-comentarios.jpg);
+        min-height: 70vh;
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+
+    .background__image__main{
+        background-image: url(./img/portrait-of-smiling-young-girl-pointing-finger-away.jpg);
+        background-size: cover;
+        min-height: 70vh;
+        position: relative;
+        color: white;
+    }
+
 }
 
 /*Celulares*/
@@ -94,6 +110,58 @@
                 text-decoration: underline;
             }
         }
+    }
+
+    .seccion__comentarios__main{
+        background-image: url(../../img/main-comentarios.jpg);
+        min-height: 10vh;
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+
+    .card-text{
+        font-size: 14px;
+    }
+
+    .card-title{
+        font-size: 16px;
+    }
+
+    .main__title {
+        font-size: 14px;
+    
+        &__principal {
+            font-size: 16px;
+        }
+    }
+
+    .card{
+        opacity: 50;
+    }
+
+    .background__image__main{
+        background-image: url(./img/portrait-of-smiling-young-girl-pointing-finger-away.jpg);
+        background-size: cover;
+        min-height: 50vh;
+        position: relative;
+        color: white;
+    }
+
+    .background {
+        background-image: url(../../img/chica-pensando.jpg);
+        background-size: cover;
+        min-height: 50vh;
+        position: relative;
+        color: white;
+    }
+
+    .bg__soporte{
+        background-image: url(../../img/ask-us-enquire-question-information-contact-concept.jpg);
+        min-height: 50vh;
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
     }
 
 }

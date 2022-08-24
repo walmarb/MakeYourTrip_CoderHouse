@@ -1,32 +1,39 @@
 .membresia {
     padding: 100px;
-    background-color: $color-quinto;
+    background-image: url(../../img/foto-servicios.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+
     &__contenedor {
         @include texto__centrado;
     }
 
-    &__principal{
-        h1{
-            
+    &__principal {
+        h1 {
+
             color: white;
-            font-weight:bolder;
+            font-weight: bolder;
         }
     }
 
-    &__articulo{
+    &__articulo {
         padding: 70px;
-        h2{
+
+        h2 {
             font-size: 30px;
             text-decoration: underline;
         }
     }
 
-    &__banner{
-        padding: 50px;
-        span{
+    &__banner {
+        padding: 10px;
+
+        span {
             background-color: orange;
             padding: 10px;
             font-size: 2rem;
+            border-radius: 5rem;
         }
     }
 
@@ -35,14 +42,15 @@
     }
 
     &__tarjeta {
-        background-color: white;
+        background-color: gray;
         box-shadow: 5px 5px 5px grey;
+        border: 10px yellow;
         border-radius: 10px;
         padding: 50px;
         margin: 50px;
-        box-shadow: 0;
+        box-shadow: 20px 20px 20px 20px black;
         transition: box-shadow 30ms;
-        border: 1px solid #eee;
+        color: white;
 
         ul {
             list-style: none;
@@ -57,5 +65,6 @@
 
     &__tarjeta:hover {
         box-shadow: 0 0 3px #515151;
+        border: 10px double yellow;
     }
 }

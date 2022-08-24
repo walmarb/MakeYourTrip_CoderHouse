@@ -22,8 +22,11 @@
     }
 }
 
-@each $background, $color in $backgrounds {
-    .background--#{$background}{
-        background-color: $color;
-    }
+.bg__quienes__somos{
+    background-image: url(../../img/fondo-naranja.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
 }
+

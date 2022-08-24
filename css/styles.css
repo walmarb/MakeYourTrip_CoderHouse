@@ -8403,7 +8403,10 @@ body {
 
 .membresia {
   padding: 100px;
-  background-color: #525558; }
+  background-image: url(../../img/foto-servicios.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  position: relative; }
   .membresia__contenedor {
     text-align: center; }
   .membresia__principal h1, .membresia__principal .h1 {
@@ -8415,34 +8418,41 @@ body {
       font-size: 30px;
       text-decoration: underline; }
   .membresia__banner {
-    padding: 50px; }
+    padding: 10px; }
     .membresia__banner span {
       background-color: orange;
       padding: 10px;
-      font-size: 2rem; }
+      font-size: 2rem;
+      border-radius: 5rem; }
   .membresia__abonos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center; }
   .membresia__tarjeta {
-    background-color: white;
+    background-color: gray;
     box-shadow: 5px 5px 5px grey;
+    border: 10px yellow;
     border-radius: 10px;
     padding: 50px;
     margin: 50px;
-    box-shadow: 0;
+    box-shadow: 20px 20px 20px 20px black;
     transition: box-shadow 30ms;
-    border: 1px solid #eee; }
+    color: white; }
     .membresia__tarjeta ul {
       list-style: none; }
       .membresia__tarjeta ul li {
         margin-top: 10px; }
   .membresia__tarjeta:hover {
-    box-shadow: 0 0 3px #515151; }
+    box-shadow: 0 0 3px #515151;
+    border: 10px double yellow; }
 
 .background {
-  background-color: #525558; }
+  background-image: url(../../img/chica-pensando.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  color: white; }
 
 .imagen__viajes {
   opacity: 50%; }
@@ -8504,18 +8514,6 @@ body {
   100% {
     color: white; } }
 
-#hero {
-  min-height: 100vh;
-  position: relative; }
-
-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
 .capa {
   position: absolute;
   top: 0;
@@ -8546,6 +8544,7 @@ video {
   right: 1rem; }
 
 .background__image__main {
+  background-image: url(./img/portrait-of-smiling-young-girl-pointing-finger-away.jpg);
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -8558,7 +8557,8 @@ video {
   background-image: url(../../img/main-comentarios.jpg);
   min-height: 100vh;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  background-repeat: no-repeat; }
 
 .container__quienesSomos {
   text-align: center; }
@@ -8580,14 +8580,20 @@ video {
   .container__fundadores div p {
     text-align: center; }
 
-.background--nuestraMision {
-  background-color: pink; }
+.bg__quienes__somos {
+  background-image: url(../../img/fondo-naranja.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  color: white; }
 
-.background--nuestraHistoria {
-  background-color: #afcfbe; }
-
-.background--nuestroEquipo {
-  background-color: #b3b3d6; }
+.bg__soporte {
+  background-image: url(../../img/ask-us-enquire-question-information-contact-concept.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  opacity: 75; }
 
 /*Tabletas*/
 @media (min-width: 577px) and (max-width: 991px) {
@@ -8611,7 +8617,19 @@ video {
       height: 70px;
       width: 70px; }
   #footer__seccion {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .seccion__comentarios__main {
+    background-image: url(../../img/main-comentarios.jpg);
+    min-height: 70vh;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat; }
+  .background__image__main {
+    background-image: url(./img/portrait-of-smiling-young-girl-pointing-finger-away.jpg);
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+    color: white; } }
 
 /*Celulares*/
 @media (min-width: 320px) and (max-width: 576px) {
@@ -8644,4 +8662,38 @@ video {
     padding: 30px; }
     .membresia__banner span {
       font-size: 20px;
-      text-decoration: underline; } }
+      text-decoration: underline; }
+  .seccion__comentarios__main {
+    background-image: url(../../img/main-comentarios.jpg);
+    min-height: 10vh;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat; }
+  .card-text {
+    font-size: 14px; }
+  .card-title {
+    font-size: 16px; }
+  .main__title {
+    font-size: 14px; }
+    .main__title__principal {
+      font-size: 16px; }
+  .card {
+    opacity: 50; }
+  .background__image__main {
+    background-image: url(./img/portrait-of-smiling-young-girl-pointing-finger-away.jpg);
+    background-size: cover;
+    min-height: 50vh;
+    position: relative;
+    color: white; }
+  .background {
+    background-image: url(../../img/chica-pensando.jpg);
+    background-size: cover;
+    min-height: 50vh;
+    position: relative;
+    color: white; }
+  .bg__soporte {
+    background-image: url(../../img/ask-us-enquire-question-information-contact-concept.jpg);
+    min-height: 50vh;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat; } }

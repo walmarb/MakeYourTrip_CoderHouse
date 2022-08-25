@@ -2,6 +2,7 @@
 @media (min-width: 577px) and (max-width: 991px) {
     #presentacion {
         padding: 1rem;
+
         &__titulo {
             font-size: 2rem;
             padding-top: 2rem;
@@ -26,19 +27,19 @@
     #footer {
         &__imagen {
             padding-bottom: 3rem;
-    
+
             svg {
                 width: 100px;
                 height: 100px;
             }
         }
-    
+
         &__seccion {
             font-size: 1rem;
         }
     }
 
-    .seccion__comentarios__main{
+    .seccion__comentarios__main {
         background-image: url(../../img/main-comentarios.jpg);
         min-height: 70vh;
         background-size: cover;
@@ -46,7 +47,7 @@
         background-repeat: no-repeat;
     }
 
-    .background__image__main{
+    .background__image__main {
         background-image: url(./img/portrait-of-smiling-young-girl-pointing-finger-away.jpg);
         background-size: cover;
         min-height: 70vh;
@@ -60,6 +61,7 @@
 @media (min-width: 320px) and (max-width: 576px) {
     #presentacion {
         padding: 2rem;
+
         &__titulo {
             font-size: 1.5rem;
             padding-top: 1px;
@@ -95,24 +97,7 @@
         }
     }
 
-    .membresia{
-        &__articulo{
-            padding: 30px;
-            h2{
-                font-size: 20px;
-                text-decoration: underline;
-            }
-        }
-        &__banner{
-            padding: 30px;
-            span{
-                font-size: 20px;
-                text-decoration: underline;
-            }
-        }
-    }
-
-    .seccion__comentarios__main{
+    .seccion__comentarios__main {
         background-image: url(../../img/main-comentarios.jpg);
         min-height: 10vh;
         background-size: cover;
@@ -120,27 +105,27 @@
         background-repeat: no-repeat;
     }
 
-    .card-text{
+    .card-text {
         font-size: 14px;
     }
 
-    .card-title{
+    .card-title {
         font-size: 16px;
     }
 
     .main__title {
         font-size: 14px;
-    
+
         &__principal {
             font-size: 16px;
         }
     }
 
-    .card{
+    .card {
         opacity: 50;
     }
 
-    .background__image__main{
+    .background__image__main {
         background-image: url(./img/portrait-of-smiling-young-girl-pointing-finger-away.jpg);
         background-size: cover;
         min-height: 50vh;
@@ -156,12 +141,84 @@
         color: white;
     }
 
-    .bg__soporte{
+    .bg__soporte {
         background-image: url(../../img/ask-us-enquire-question-information-contact-concept.jpg);
         min-height: 50vh;
         background-size: cover;
         position: relative;
         background-repeat: no-repeat;
+    }
+
+    .membresia {
+        padding: 50px;
+        background-image: url(../../img/foto-servicios.jpg);
+        background-size: cover;
+        min-height: 100vh;
+
+        &__contenedor {
+            @include texto__centrado;
+        }
+
+        &__principal {
+            h1 {
+
+                color: white;
+                font-weight: bolder;
+                font-size: 20px;
+            }
+        }
+
+        &__articulo {
+            padding: 20px;
+
+            h2 {
+                font-size: 16px;
+                text-decoration: underline;
+            }
+        }
+
+        &__banner {
+            padding: 5px;
+            font-size: 16px;
+
+        }
+
+        &__abonos {
+            @include flex-row-center;
+        }
+
+        &__tarjeta {
+            background-color: gray;
+            box-shadow: 5px 5px 5px grey;
+            border: 10px yellow;
+            border-radius: 10px;
+            padding: 15px;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-top: 10px;
+            box-shadow: 10px 10px 10px 10px black;
+            transition: box-shadow 0.5s;
+            color: white;
+
+            ul {
+                list-style: circle;
+                padding-left: 10px;
+                li {
+                    margin-top: 5px;
+                }
+
+                ;
+            }
+        }
+
+        &__tarjeta:hover {
+            box-shadow: 0 0 3px #515151;
+            border: 2px solid goldenrod;
+        }
+    }
+    
+    .btn{
+        font-size: 16px;
     }
 
 }

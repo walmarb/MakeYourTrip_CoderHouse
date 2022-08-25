@@ -8397,6 +8397,21 @@ body {
   .btn-blue:active {
     background: #ba6400; }
 
+.navbar-nav li a {
+  transition: .5s; }
+
+.navbar-nav li a::before {
+  transition: .5s;
+  transform: scale(0.9);
+  z-index: -1; }
+
+.navbar-nav li a:hover::before {
+  transform: scale(1.1); }
+
+.navbar-nav li a:hover {
+  color: #ffee10;
+  text-shadow: 0 0 5px #ffee10; }
+
 .footer__titulo {
   color: white;
   font-size: strong; }
@@ -8440,7 +8455,8 @@ body {
     transition: box-shadow 30ms;
     color: white; }
     .membresia__tarjeta ul {
-      list-style: none; }
+      list-style: circle;
+      text-align: left; }
       .membresia__tarjeta ul li {
         margin-top: 10px; }
   .membresia__tarjeta:hover {
@@ -8662,16 +8678,6 @@ body {
       width: 50px; }
   #footer__seccion {
     font-size: 10px; }
-  .membresia__articulo {
-    padding: 30px; }
-    .membresia__articulo h2, .membresia__articulo .h2 {
-      font-size: 20px;
-      text-decoration: underline; }
-  .membresia__banner {
-    padding: 30px; }
-    .membresia__banner span {
-      font-size: 20px;
-      text-decoration: underline; }
   .seccion__comentarios__main {
     background-image: url(../../img/main-comentarios.jpg);
     min-height: 10vh;
@@ -8705,4 +8711,50 @@ body {
     min-height: 50vh;
     background-size: cover;
     position: relative;
-    background-repeat: no-repeat; } }
+    background-repeat: no-repeat; }
+  .membresia {
+    padding: 50px;
+    background-image: url(../../img/foto-servicios.jpg);
+    background-size: cover;
+    min-height: 100vh; }
+    .membresia__contenedor {
+      text-align: center; }
+    .membresia__principal h1, .membresia__principal .h1 {
+      color: white;
+      font-weight: bolder;
+      font-size: 20px; }
+    .membresia__articulo {
+      padding: 20px; }
+      .membresia__articulo h2, .membresia__articulo .h2 {
+        font-size: 16px;
+        text-decoration: underline; }
+    .membresia__banner {
+      padding: 5px;
+      font-size: 16px; }
+    .membresia__abonos {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center; }
+    .membresia__tarjeta {
+      background-color: gray;
+      box-shadow: 5px 5px 5px grey;
+      border: 10px yellow;
+      border-radius: 10px;
+      padding: 15px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 10px;
+      box-shadow: 10px 10px 10px 10px black;
+      transition: box-shadow 0.5s;
+      color: white; }
+      .membresia__tarjeta ul {
+        list-style: circle;
+        padding-left: 10px; }
+        .membresia__tarjeta ul li {
+          margin-top: 5px; }
+    .membresia__tarjeta:hover {
+      box-shadow: 0 0 3px #515151;
+      border: 2px solid goldenrod; }
+  .btn {
+    font-size: 16px; } }

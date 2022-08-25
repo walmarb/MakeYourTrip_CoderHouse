@@ -3,11 +3,11 @@
 
 <h2>Datos</h2>
 <ul>
-<li> <strong>Curso:</strong> Desarrollo Web / CoderHouse</li>
-<li><strong>Comision:</strong> Desarrollo Web / CoderHouse</li>
-<li><strong>Profesora:</strong> Desarrollo Web / CoderHouse</li>
-<li><strong>Tutor:</strong> Desarrollo Web / CoderHouse</li>
-<li><strong>Desarrollado por:</strong> Desarrollo Web / CoderHouse</li>
+<li> <strong>Curso:</strong> Desarrollo Web</li>
+<li><strong>Comision:</strong> 37125</li>
+<li><strong>Profesora:</strong> Eimy Blanco</li>
+<li><strong>Tutor:</strong> Julian Fernandez</li>
+<li><strong>Desarrollado por:</strong> Walmar Bernardini</li>
 </ul>
 
 <h2>Herramientas</h2>
